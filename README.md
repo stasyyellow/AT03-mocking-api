@@ -25,3 +25,18 @@ https://api.thecatapi.com/v1/images/search
 - Напишите тест, который проверяет успешный запрос и возвращает правильный URL.
 
 - Напишите тест, который проверяет неуспешный запрос (например, статус код 404) и возвращает `None`.
+
+
+RESULT
+"C:\_Python AI\github\AT03-mocking-api\.venv\Scripts\python.exe" "C:/Program Files/JetBrains/PyCharm Community Edition 2023.1/plugins/python-ce/helpers/pycharm/_jb_pytest_runner.py" --target test.py::test_successful_cat_image_request 
+Testing started at 20:18 ...
+Launching pytest with arguments test.py::test_successful_cat_image_request --no-header --no-summary -q in C:\_Python AI\github\AT03-mocking-api
+
+============================= test session starts =============================
+collecting ... collected 1 item
+
+test.py::test_successful_cat_image_request PASSED                        [100%]
+
+============================== 1 passed in 5.20s ==============================
+
+Process finished with exit code 0
